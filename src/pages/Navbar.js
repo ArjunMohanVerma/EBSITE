@@ -3,7 +3,7 @@ import React from "react"
 
 export default function Navbar() {
   return (
-    <nav className="nav" style={{width:'97vw'}}>
+    <nav className="nav" style={{width:'97vw',height:'4vw'}}>
       <Link to="/" className="site-title">
         STKT
       </Link>

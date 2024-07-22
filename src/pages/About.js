@@ -8,10 +8,10 @@ export default function About() {
  <>
  <Navbar/>
  <div className="about" style={{width:'97vw'}}>
-      <h1>About Company!</h1>
-      <p>Find Top-Rated Salons & Exclusive Deals with VYLEE!</p>
+      <h1 style={{fontSize:"50px"}}>About Company!</h1>
+      <p style={{fontSize:"30px"}}>Find Top-Rated Salons & Exclusive Deals with VYLEE!</p>
       <br/>
-      <p>We are dedicated to transforming the
+      <p style={{fontSize:"22px"}}>We are dedicated to transforming the
           salon industry by seamlessly connecting
           salon owners with customers through
           innovative and convenient solutions.<br/>
@@ -22,16 +22,16 @@ export default function About() {
     
       <br />
       <p>
-        <h2>Our Vision!</h2>
-        <p>To be the leading digital platform that transforms
+        <h2 style={{fontSize:"30px"}}>Our Vision!</h2>
+        <p style={{fontSize:"22px"}}>To be the leading digital platform that transforms
             the salon industry by empowering salon owners
                 and providing customers with exceptional beauty
             experiences.</p>
       </p>
       <br />
       <p>
-        <h2>Our Mission!</h2>
-        <p>To revolutionize the salon industry by seamlessly
+        <h2 style={{fontSize:"30px"}}>Our Mission!</h2>
+        <p style={{fontSize:"22px"}}>To revolutionize the salon industry by seamlessly
             connecting salon owners with discerning
             customers through innovative, convenient, and
             high-quality digital solutions, ensuring access to
@@ -39,7 +39,7 @@ export default function About() {
       </p>
       <br />
 
-      <h3>Browse through some of our videos!</h3>
+      <h3 style={{fontSize:"22px"}}>Browse through some of our videos!</h3>
       <br />
       <div className="videos" style={{width:'97vw'}}>
       <video
